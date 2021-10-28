@@ -75,7 +75,7 @@ public:
             }
             path = temp;
         }
-        for (int i = 0; i < vec.size() - 1; i++)
+        for (int i = 0; i < vec.size() ; i++) // Traversing whole vector
         {
             cout << vec[i] << "->";
         }
