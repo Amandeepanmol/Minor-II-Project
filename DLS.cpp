@@ -66,7 +66,7 @@ int main()
     }
     cout << endl;
     cout << "Time taken: ";
-    double ans = (double)(clock() - tStart) / CLOCKS_PER_SEC;
+    float ans = (float)(clock() - tStart) / CLOCKS_PER_SEC; // Type Conversion
     cout << ans;
     return 0;
 }
